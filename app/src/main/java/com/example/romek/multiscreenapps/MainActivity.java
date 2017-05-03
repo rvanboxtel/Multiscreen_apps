@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //Finds the button for sporting
-        TextView sporting = (TextView)findViewById(R.id.firstlocation);
+        final TextView sporting = (TextView)findViewById(R.id.firstlocation);
 
         //Makes onclick listenner
         sporting.setOnClickListener(new View.OnClickListener() {
