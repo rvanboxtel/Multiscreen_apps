@@ -17,7 +17,7 @@
         android:background="@color/colorSporting"
         android:text="Almere City"
         android:textAlignment="center"
-        android:textColor="@color/colorTextBlack"
+        android:textColor="@color/colorTextWhite"
         android:textSize="30sp"
         android:onClick="openSporting"
         />
